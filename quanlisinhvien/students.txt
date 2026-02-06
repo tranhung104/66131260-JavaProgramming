@@ -1,0 +1,25 @@
+=== SINH VIÊN ===
+Mã SV: 66131260
+Họ tên: trần gia hưng
+Điểm Toán: PT.1f
+Điểm Lý: PT.1f
+Điểm Hóa: PT.1f
+Điểm TB: PT.2f
+=================
+
+=== SINH VIÊN ===
+Mã SV: 66131260
+Họ tên: trần gia hưng
+Điểm Toán: 9.0
+Điểm Lý: 8.0
+Điểm Hóa: 7.0
+Điểm TB: 8.00
+==================== SINH VIÊN ===
+Mã SV: 66131260
+Họ tên: trần gia hưng
+Điểm Toán: 9.0
+Điểm Lý: 8.0
+Điểm Hóa: 7.0
+Điểm TB: 8.00
+=================
+
