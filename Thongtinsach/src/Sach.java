@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
+public class Sach {
+	String tieuDe;
+	String tacGia;
+	int gia;
+	int soTrang;
+	
+	void hienThiThongTin() {
+		System.out.println("Tieu de: " + tieuDe);
+		System.out.println("Tac gia: " + tacGia);
+		System.out.println("Gia: " + gia);
+		System.out.println("So trang: " + soTrang);
+	}
+}
