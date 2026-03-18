@@ -34,4 +34,4 @@ public class arraylist_songuyen {
         }
         System.out.println("Tổng tất cả các phần tử là: " + tong);
     }
-}
+} 
