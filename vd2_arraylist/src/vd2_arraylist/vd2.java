@@ -19,7 +19,7 @@ public class vd2 {
 	    public String getMaSV() { return maSV; }
 	    public String getHoTen() { return hoTen; }
 	    public double getDiemTB() { return diemTB; }
-	    
+	   
 	    @Override
 	    public String toString() {
 	        return String.format("Mã: %s | Họ tên: %s | Điểm TB: %.2f",  maSV, hoTen, diemTB);
