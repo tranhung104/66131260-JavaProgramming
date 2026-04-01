@@ -8,9 +8,9 @@ public class Main {
         HocSinh hs1 = new HocSinh();
         hs1.setTenHS("Trần Văn A");
         hs1.setTuoiHS(10);
-        hs1.setLopHS("8A12");
+        hs1.setLopHS("5A1");
 
-        HocSinh hs2 = new HocSinh("Trần Thị Tươi", 12, "6C");
+        HocSinh hs2 = new HocSinh("Lê Văn B", 12, "3C");
 
         System.out.println("Thông tin HS1:\n" + hs1.toString());
         System.out.println("Tên HS2: " + hs2.getTenHS());
@@ -42,7 +42,7 @@ public class Main {
             danhSachHS.add(hsi);
         }
 
-        HocSinh hsThem = new HocSinh("Nguyễn Văn Thêm", 14, "9A1");
+        HocSinh hsThem = new HocSinh("Nguyễn Văn C", 15, "10A1");
         danhSachHS.add(hsThem);
 
         for (int i = 0; i < danhSachHS.size(); i++) {
