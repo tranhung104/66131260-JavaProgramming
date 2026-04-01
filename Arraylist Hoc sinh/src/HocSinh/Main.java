@@ -4,9 +4,8 @@ import java.util.ArrayList;
 
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		HocSinh hs1 = new HocSinh();
+    public static void main(String[] args) {
+        HocSinh hs1 = new HocSinh();
         hs1.setTenHS("Trần Văn A");
         hs1.setTuoiHS(10);
         hs1.setLopHS("8A12");
@@ -18,19 +17,19 @@ public class Main {
 
         Scanner banPhim = new Scanner(System.in);
         HocSinh hs3 = new HocSinh();
-        
+
         System.out.print("Mời nhập tên của học sinh thứ ba: ");
         hs3.setTenHS(banPhim.nextLine());
         System.out.print("Mời nhập tuổi học sinh thứ ba: ");
         hs3.setTuoiHS(Integer.parseInt(banPhim.nextLine()));
         System.out.print("Mời nhập lớp của học sinh thứ ba: ");
         hs3.setLopHS(banPhim.nextLine());
-        
+
         System.out.println("Thông tin HS3 vừa nhập:\n" + hs3.toString());
 
         ArrayList<HocSinh> danhSachHS = new ArrayList<>();
         int n = 3;
-        
+
         for (int i = 0; i < n; i++) {
             System.out.println("Nhập học sinh thứ " + (i + 1));
             HocSinh hsi = new HocSinh();
@@ -40,7 +39,6 @@ public class Main {
             hsi.setTuoiHS(Integer.parseInt(banPhim.nextLine()));
             System.out.print("Lớp: ");
             hsi.setLopHS(banPhim.nextLine());
-            
             danhSachHS.add(hsi);
         }
 
@@ -60,6 +58,5 @@ public class Main {
         for (HocSinh hs : danhSachHS) {
             System.out.println(hs.toString());
         }
-	}
-
+    }
 }
