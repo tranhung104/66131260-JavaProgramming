@@ -1,4 +1,4 @@
-package Hinhhoc;
+package HinhHoc;
 
 public class HinhVuong extends HinhHoc {
 private double canh;

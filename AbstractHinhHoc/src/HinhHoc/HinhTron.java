@@ -1,4 +1,4 @@
-package Hinhhoc;
+package HinhHoc;
 
 public class HinhTron extends HinhHoc {
 	private double banKinh;
