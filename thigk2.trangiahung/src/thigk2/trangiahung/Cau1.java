@@ -2,6 +2,12 @@ package thigk2.trangiahung;
 
 import java.util.Scanner;
 
+/**
+ * Câu 1: Nhập chiều cao, cân nặng từ bàn phím
+ * Tính BMI = cân nặng / (chiều cao * chiều cao)
+ * Phân loại theo chỉ số BMI
+ */
+
 public class Cau1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -22,7 +28,7 @@ public class Cau1 {
 		} else if (bmi < 29.9) {
 			tinhtrang = "Thừa cân";
 		} else {
-			tinhtrang = "Béo pfih";
+			tinhtrang = "Béo phì";
 		}
 		System.out.println("tình trạng cơ thể: " + tinhtrang);
 		sc.close();
