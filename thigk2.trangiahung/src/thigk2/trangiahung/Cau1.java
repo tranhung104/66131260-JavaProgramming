@@ -24,6 +24,7 @@ public class Cau1 {
 		} else {
 			tinhtrang = "Béo pfih";
 		}
-		
+		System.out.println("tình trạng cơ thể: " + tinhtrang);
+		sc.close();
 	}
 }
