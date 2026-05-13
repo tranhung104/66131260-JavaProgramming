@@ -12,7 +12,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 
 
-public class LoginPage extends Application {
+public class DecorationsExample extends Application {
     @Override
     public void start(Stage stage) {
         Text text1 = new Text("Email");
