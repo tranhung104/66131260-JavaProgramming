@@ -10,7 +10,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 
-public class DecorationsExample extends Application {
+public class DrawingLine extends Application {
     @Override
     public void start(Stage stage) {
         Text text1 = new Text("Hi how are you");
