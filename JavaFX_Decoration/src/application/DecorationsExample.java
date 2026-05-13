@@ -19,7 +19,7 @@ public class DecorationsExample extends Application {
         text1.setY(75);
         text1.setStrikethrough(true);
 
-        Text text2 = new Text("Welcome to Tutorialspoint");
+        Text text2 = new Text("Hello xin chào");
         text2.setFont(Font.font("verdana", FontWeight.BOLD, FontPosture.ITALIC, 20));
         text2.setX(50);
         text2.setY(150);

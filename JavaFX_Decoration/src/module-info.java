@@ -1,5 +1,6 @@
-module JavaFX_Decoration {
-	requires javafx.controls;
-	
-	opens application to javafx.graphics, javafx.fxml;
+module JavaFxSample { 
+    requires javafx.controls;
+    requires javafx.graphics;
+    
+    opens application to javafx.graphics, javafx.fxml;
 }
